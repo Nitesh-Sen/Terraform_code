@@ -8,4 +8,4 @@
 > 
 > - Run Nginx with other file script. Give the location in main.tf file
 > 
-> - In Nginx .html file add data. - <h1>{Hello from Terraform}</h1>
+> - In Nginx .html file add data. - ``<h1>{Hello from Terraform}</h1>``
