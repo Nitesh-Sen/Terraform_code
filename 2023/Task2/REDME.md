@@ -18,6 +18,7 @@
 ```
 aws configure
 ```
+> [Fill your secrect and access key](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
 **2. check your aws credentials.**
 ```
