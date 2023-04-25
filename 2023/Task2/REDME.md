@@ -56,11 +56,15 @@ terraform plan
 terraform apply
 ```
 
-**8. Run apply command without any confirmation.**
-```
-terraform apply --auto-approve
-```
-**9. To destroy all resources which were created.**
+> Run apply command without any confirmation.
+> ```
+> terraform apply --auto-approve
+> ```
+**8. To destroy all resources which were created.**
 ```
 terraform destroy
 ```
+> Run destroy command without any confirmation.
+> ```
+> terraform destroy --auto-approve
+>
