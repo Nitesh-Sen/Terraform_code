@@ -6,7 +6,7 @@
 >
 > Create S3 Bucket
 > 
-> - Give tag  Owner=<Instance ID>
+> - Give tag:- Owner = "INSTANCE_ID"
 >
 > Output
 >
