@@ -10,16 +10,16 @@
 > 
 > - In Nginx .html file add data. - ``<h1>{Hello from Terraform}</h1>``
 
-Save both file in one Repository and run following commands. 
+- Save both file in one Repository and run following commands. 
   - [Bash.sh ](https://github.com/Nitesh-Sen/Terraform_code/blob/8b126da0e5652d71a4cb6bca8846fdc5db5dfba2/2023/Task2/user-data.web)
   - [main.tf](https://github.com/Nitesh-Sen/Terraform_code/blob/8b126da0e5652d71a4cb6bca8846fdc5db5dfba2/2023/Task2/main2.tf)
 
-- Configure your aws credentials.
+1. Configure your aws credentials.
 ```
 aws configure
 ```
 
-- check your aws credentials.
+2. check your aws credentials.
 ```
 aws sts get-caller-identity
 ```
@@ -30,36 +30,36 @@ aws sts get-caller-identity
     "Arn": "arn:aws:iam::4XXXXXXXXX5:user/nitesh"
 }
 ```
-> if you get this output then your credentials are working.
+3. if you get this output then your credentials are working.
 - Initialize the repository.
 ```
 terraform init
 ```
-- Validate the Terraform code. 
+4. Validate the Terraform code. 
 ```
 terraform validate
 ```
 
-- Set the format of Terraform code.
+5. Set the format of Terraform code.
 ```
 terraform fmt
 ```
 
-- Check the code. What it will build.
+6. Check the code. What it will build.
 ```
 terraform plan
 ```
 
-- Now go to apply the Terraform code. if this code is validate.
+7. Now go to apply the Terraform code. if this code is validate.
 ```
 terraform apply
 ```
 
-- Forcefully apply code.
+8. Forcefully apply code.
 ```
 terraform apply --auto-approve
 ```
-- To destroy all resources which were created.
+9. To destroy all resources which were created.
 ```
 terraform destroy
 ```
