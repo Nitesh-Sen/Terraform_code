@@ -30,8 +30,8 @@ aws sts get-caller-identity
     "Arn": "arn:aws:iam::4XXXXXXXXX5:user/nitesh"
 }
 ```
-**3. if you get this output then your credentials are working.**
-- Initialize the repository.
+> if you get this output then your credentials are working.
+**3. Initialize the repository.**
 ```
 terraform init
 ```
