@@ -56,7 +56,7 @@ terraform plan
 terraform apply
 ```
 
-**8. Forcefully apply code.**
+**8. Run apply command without any confirmation.**
 ```
 terraform apply --auto-approve
 ```
