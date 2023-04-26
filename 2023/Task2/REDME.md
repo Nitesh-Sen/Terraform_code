@@ -27,7 +27,7 @@ aws sts get-caller-identity
 ```
 {
     "UserId": "AXXXXXXXXXXXXXXXXW",
-    "Account": "428918830755",
+    "Account": "4XXXXXXXXX5",
     "Arn": "arn:aws:iam::4XXXXXXXXX5:user/nitesh"
 }
 ```
