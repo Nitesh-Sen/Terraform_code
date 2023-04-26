@@ -13,8 +13,9 @@
 > - Instance ID, Name
 > 
 > - S3 Bucket Name
+<br />
 
-#### Create a file named by main.tf and add this below content in that file.
+- Create a file named by **main.tf** and add this below content in that file. Then you will follow other command run steps from [This File](https://github.com/Nitesh-Sen/Terraform_code/blob/aec7f333a1021ba69a71e2c07e0991ad42022af2/2023/Task2/README.md).
 
 ```
 # -----------> Terraform Version and Provider <-----------
@@ -79,3 +80,4 @@ output "S3-Bucket-Name" {
   description = "Bucket ARN"
 }
 ```
+
