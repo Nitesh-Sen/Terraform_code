@@ -32,6 +32,7 @@ aws sts get-caller-identity
 }
 ```
 > if you get this output then your credentials are working.
+
 **3. Initialize the repository.**
 ```
 terraform init
