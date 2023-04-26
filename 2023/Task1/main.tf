@@ -48,17 +48,14 @@ resource "aws_s3_bucket" "s3-bucket" {
 output "Ec2-instance-ID" {
   value       = aws_instance.Ec2Instance.id
   description = "Aws Instance ID"
-  depends_on  = [aws_instance.Ec2Instance]
 }
 
 output "Ec2-Instance-Name" {
   value       = var.InstanceTag
   description = "aws Instance name"
-  depends_on  = [aws_instance.Ec2Instance]
 }
 
 output "S3-Bucket-Name" {
   value       = aws_s3_bucket.s3-bucket.bucket_domain_name
   description = "Bucket ARN"
-  depends_on  = [aws_s3_bucket.s3-bucket]
 }
