@@ -64,7 +64,7 @@ resource "aws_instance" "Ec2Instance" {
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.allow_http_ssh.id]
   depends_on             = [aws_security_group.allow_http_ssh]
-  user_data              = file("user-data.web")
+  user_data              = file("Bash.sh")
   tags = {
     Name = var.InstanceTag
   }
