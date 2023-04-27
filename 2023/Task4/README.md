@@ -1,6 +1,6 @@
 # Terraform
 ## Task4 
-- **NOTE:-** Without use any count and For each metadata. Create the simply template with these following steps.
+
 > Create Custom VPC
 >
 > - 2 Private Subnet each Availability zone [Max Availability zone 2] [Total Subnet 4].
@@ -16,3 +16,4 @@
 > - Run Apache2 by script.
 >
 > - Get Public IP in Output and open it on Browser. ( To Check your all VPC Configuration and all Network is working well).
+- **NOTE:-** Without use any count and For each metadata. Create the simply template with these following steps.
